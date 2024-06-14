@@ -26,7 +26,7 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # Replace with a stable Python version like 3.8 or 3.9
+        python-version: '3.9'  # Use a stable Python version like 3.9
         architecture: 'x64'    # Adjust based on your environment
 
     - name: Install system dependencies
